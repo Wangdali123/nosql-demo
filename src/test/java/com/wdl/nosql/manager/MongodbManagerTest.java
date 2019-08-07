@@ -1,38 +1,38 @@
-package com.wdl.nosql.manager;
-
-import com.wdl.nosql.domain.dao.UserMongoRepository;
-import com.wdl.nosql.domain.pojo.User;
-import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.data.domain.PageRequest;
-import org.springframework.data.mongodb.core.MongoTemplate;
-import org.springframework.data.mongodb.core.query.Criteria;
-import org.springframework.data.mongodb.core.query.Query;
-import org.springframework.data.mongodb.core.query.Update;
-import org.springframework.test.context.junit4.SpringRunner;
-
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.List;
-
-
-/**
- * <p>Title: MongodbManagerTest</p>
- * <p>Description: Mongo 测试类</p>
- * <p>Copyright: Copyright (c) 2019</p>
- * <p>Company: sodo</p>
- *
- * @author wangdali
- * @version 1.0
- * @date 2019/5/8 22:48
- */
-@RunWith(SpringRunner.class)
-@SpringBootTest
-public class MongodbManagerTest {
-
+//package com.wdl.nosql.manager;
+//
+//import com.wdl.nosql.domain.dao.UserMongoRepository;
+//import com.wdl.nosql.domain.pojo.User;
+//import org.junit.Test;
+//import org.junit.runner.RunWith;
+//import org.springframework.beans.factory.annotation.Autowired;
+//import org.springframework.boot.test.context.SpringBootTest;
+//import org.springframework.data.domain.PageRequest;
+//import org.springframework.data.mongodb.core.MongoTemplate;
+//import org.springframework.data.mongodb.core.query.Criteria;
+//import org.springframework.data.mongodb.core.query.Query;
+//import org.springframework.data.mongodb.core.query.Update;
+//import org.springframework.test.context.junit4.SpringRunner;
+//
+//import java.util.ArrayList;
+//import java.util.Calendar;
+//import java.util.Date;
+//import java.util.List;
+//
+//
+///**
+// * <p>Title: MongodbManagerTest</p>
+// * <p>Description: Mongo 测试类</p>
+// * <p>Copyright: Copyright (c) 2019</p>
+// * <p>Company: sodo</p>
+// *
+// * @author wangdali
+// * @version 1.0
+// * @date 2019/5/8 22:48
+// */
+//@RunWith(SpringRunner.class)
+//@SpringBootTest
+//public class MongodbManagerTest {
+//
 //    @Autowired
 //    private UserMongoRepository userMongoRepository;
 //
@@ -80,4 +80,4 @@ public class MongodbManagerTest {
 //        Update update = new Update().set("name", "更新大厉").set("mobile", "18688886666");
 //        mongoTemplate.updateFirst(query, update, User.class, "UserAlias");
 //    }
-}
+//}
