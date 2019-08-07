@@ -9,3 +9,5 @@ spring:
       host: 123.207.99.000
       port: 27017
       database: xxxxx
+server:
+  port: 8088
